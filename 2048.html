@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script src="lib/jquery-3.1.1.min.js"></script>
+	<script src="lib/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="lib/bootstrap.min.css" rel="stylesheet">  
+	<link rel="stylesheet" href="lib/2048.css">
+	<script src="lib/2048.js" type="text/javascript" charset="utf-8" async defer></script>
+
+	<!-- <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script> -->
+
+	<!-- <script type="text/javascript" src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script> -->
+
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div id="start" class="text-center">
+	<p class="col-md-6 col-md-offset-3">biết chơi chưa ?</p>
+	<p class="col-md-6 col-md-offset-3">ấn mũi tên trên bàn phím để chơi</p>
+</div>
+<div id="fail" class="text-center">
+	<p class="col-md-6 col-md-offset-3">thua rồi má </p>
+	<p class="col-md-6 col-md-offset-3">ấn mũi tên trên bàn phím để xem lại</p>
+
+	<div class="clearfix"></div>
+	<button  id="next" class="btn-default  col-md-3 col-md-offset-3" > chơi lại </button>
+	<button id="back" onclick="location.href='https://www.facebook.com/profile.php?id=100006364240644' "  class="btn-primary col-md-3" > méo chơi nữa</button>
+
+</div>
+	<div class="col-md-6 col-md-offset-3">
+		<div id="table">
+			<div class="row text-center">
+				<div class="col-md-3 ">
+					<ul class="list-group list-unstyled list-unstyled" >
+						<li ><input id="00" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="10" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="20" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="30" type="text" name="" value="0" placeholder=""></li>
+
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-group list-unstyled" >
+						<li ><input id="01" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="11" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="21" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="31" type="text" name="" value="0" placeholder=""></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-group list-unstyled" >
+						<li ><input id="02" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="12" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="22" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="32" type="text" name="" value="0" placeholder=""></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-group list-unstyled" >
+						<li ><input id="03" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="13" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="23" type="text" name="" value="0" placeholder=""></li>
+						<li ><input id="33" type="text" name="" value="0" placeholder=""></li>
+					</ul>
+				</div>
+				
+			</div>
+			<!-- end div row -->
+		</div>
+		<!-- end div id = table -->
+	</div>
+</div>
+	
+	
+</div>
+
+</body>
+</html>
